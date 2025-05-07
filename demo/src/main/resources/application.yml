@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo
+  tomcat:
+    max-threads: 200
+    min-spare-threads: 10
+  data:
+    elasticsearch:
+      uris: http://localhost:9200
+      socket-timeout: 10s
